@@ -1,4 +1,4 @@
-This project shows a bug (or some sort of) about the Cascades WebView component in BlackBerry 10 - OS version 10....
+This project shows a bug (or some sort of) about the Cascades WebView component in BlackBerry 10 - OS version 10.2.0.429
 
 The issue is that if you try to load a webview with a (quite) big image the app crash.
 Try this code, it should crash:
