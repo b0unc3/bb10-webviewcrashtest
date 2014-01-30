@@ -29,11 +29,12 @@ Page {
         //Todo: fill me with QML
         Button {
             text: "webview load";
-            onClicked: {
-                var page = wv.createObject();
-                navpane.push(page);
+                onClicked: {
+                    var page = wv.createObject();
+                    navpane.push(page);
+                    page.webUrl = "<html><img src=\"http://bouncelab.files.wordpress.com/2013/09/wpid-img_000000655.jpg\" alt=\"desc\" /></html>";
+                }
             }
         }
     }
-}
 }
