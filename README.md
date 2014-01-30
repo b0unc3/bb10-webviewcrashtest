@@ -4,14 +4,14 @@ The issue is that if you try to load a webview with a (quite) big image the app 
 Try this code, it should crash:
 
 ```
-```import bb.cascades 10.2
-```Page {
-```	Container {
-```		WebView {
-```			html: "<html><a href="abigimage" /></html>";
-```		}
-```	}
-```}
+import bb.cascades 10.2
+Page {
+	Container {
+		WebView {
+			html: "<html><a href="abigimage" /></html>";
+		}
+	}
+}
 
 ```
 
